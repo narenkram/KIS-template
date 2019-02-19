@@ -1,0 +1,20 @@
+
+@media only screen and (max-width:320px){
+    .TopBar{
+        text-align: center;
+    }
+    .TopBar__content ul li{
+        clear: both;
+    }
+    .TopBar__content ul{
+        clear: both;
+        display: inline-flex;
+    }
+    .TopBar__content span{
+        clear: both;
+        display: inline-flex;
+    }
+    .TopBar__content{
+        justify-content: center;
+    }
+}
