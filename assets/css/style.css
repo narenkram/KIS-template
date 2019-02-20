@@ -11,6 +11,9 @@
     background-color: #212528;
 }
 
+.ThemeBgColor2 {
+    background-color: #ef5226;
+}
 
 .TopBar {
     background-color: #ff5722;
@@ -84,7 +87,5 @@
 }
 
 .Footer li{
-    display: inline-block;
-    width: 47%;
     padding: 7px 0;
 }
