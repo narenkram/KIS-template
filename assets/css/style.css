@@ -7,6 +7,11 @@
     color: #ef5226;
 }
 
+.ThemeBgColor {
+    background-color: #212528;
+}
+
+
 .TopBar {
     background-color: #ff5722;
     color: #fff;
@@ -47,6 +52,7 @@
     float: right;
     font-weight: 600;
     font-size: 13px;
+    margin-top: 3px;
 }
 
 .LogoSection{
@@ -70,4 +76,15 @@
     text-transform: uppercase;
     color: #fff;
     letter-spacing: 1px;
+}
+
+.Footer{
+    background-color: #212528;
+    color:#fff;
+}
+
+.Footer li{
+    display: inline-block;
+    width: 47%;
+    padding: 7px 0;
 }
