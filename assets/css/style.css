@@ -199,3 +199,11 @@ p {
     -o-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
 }
+
+* {
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    -webkit-transition: all 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    -moz-transition: all 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    -o-transition: all 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    -ms-transition: all 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
