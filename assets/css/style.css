@@ -69,6 +69,29 @@
     color: #fff;
 }
 
+.LogoSection__info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+@media only screen and (max-width:768px) {
+    .LogoSection__info {
+        justify-content: unset;
+    }
+}
+
+.LogoSection__title {
+    font-weight: 500;
+}
+
+@media only screen and (max-width:575px) {
+    .LogoSection__iconholder {
+        width: 60px;
+    }
+}
+
 .MenuLinks {
     background-color: #212528;
     border-top: 1px solid #232f3a;
@@ -105,28 +128,33 @@
 }
 
 /* bootstrap overides */
-.btn-primary{
+
+.btn-primary {
     background-color: #ef5226;
     color: #fff;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
     background-color: #212528;
     color: #fff;
 }
 
-.btn-dark{
+.btn-dark {
     background-color: #212528;
     color: #fff;
 }
 
-.btn-dark:hover{
+.btn-dark:hover {
     background-color: #ef5226;
     color: #fff;
 }
 
-.btn{
-    border:0;
+.btn {
+    border: 0;
+}
+
+.text-muted {
+    color: #999999!important;
 }
 
 h3, h5 {
