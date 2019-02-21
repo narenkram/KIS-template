@@ -102,3 +102,11 @@
     background-color: #ef5226;
     color:#fff;
 }
+
+h3, h5{
+    font-weight: 700;
+}
+
+p{
+    font-weight: 400;
+}
