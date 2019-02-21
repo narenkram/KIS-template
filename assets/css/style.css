@@ -99,9 +99,34 @@
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
 }
 
-.SectionContent__div{
+.SectionContent__div {
     background-color: #ef5226;
     color: #fff;
+}
+
+/* bootstrap overides */
+.btn-primary{
+    background-color: #ef5226;
+    color: #fff;
+}
+
+.btn-primary:hover{
+    background-color: #212528;
+    color: #fff;
+}
+
+.btn-dark{
+    background-color: #212528;
+    color: #fff;
+}
+
+.btn-dark:hover{
+    background-color: #ef5226;
+    color: #fff;
+}
+
+.btn{
+    border:0;
 }
 
 h3, h5 {
@@ -110,4 +135,15 @@ h3, h5 {
 
 p {
     font-weight: 400;
+}
+
+::-moz-selection {
+    /* Code for Firefox */
+    color: red;
+    background: yellow;
+}
+
+::selection {
+    color: red;
+    background: yellow;
 }
