@@ -89,3 +89,16 @@
 .Footer li{
     padding: 7px 0;
 }
+
+.Footer a{
+    color:#fff;
+}
+
+.SectionContent{
+    background-color: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.SectionContentChild{
+    background-color: #ef5226;
+    color:#fff;
+}
