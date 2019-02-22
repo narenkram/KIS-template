@@ -1,45 +1,44 @@
 /* @import url('https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700,800,900'); */
 
-@font-face{
+@font-face {
     font-family: 'Exo';
     src: url(../fonts/Exo-Regular.ttf);
 }
 
-@font-face{
+@font-face {
     font-family: 'Exo-Bold';
     src: url(../fonts/Exo-Bold.ttf);
 }
 
-@font-face{
+@font-face {
     font-family: 'Exo-ExtraBold';
     src: url(../fonts/Exo-ExtraBold.ttf);
 }
 
-@font-face{
+@font-face {
     font-family: 'Exo-SemiBold';
     src: url(../fonts/Exo-SemiBold.ttf);
 }
 
-@font-face{
+@font-face {
     font-family: 'Exo-Medium';
     src: url(../fonts/Exo-Medium.ttf);
 }
 
-@font-face{
+@font-face {
     font-family: 'Exo-Light';
     src: url(../fonts/Exo-Light.ttf);
 }
 
-@font-face{
+@font-face {
     font-family: 'Exo-ExtraLight';
     src: url(../fonts/Exo-ExtraLight.ttf);
 }
 
-@font-face{
+@font-face {
     font-family: 'Exo-Thin';
     src: url(../fonts/Exo-Thin.ttf);
 }
-
 
 * {
     font-family: 'Exo', sans-serif;
@@ -146,6 +145,40 @@
     letter-spacing: 1px;
     font-weight: 500;
 }
+
+.Pricing__card{
+    cursor: pointer;
+}
+
+.Pricing__card:hover .Pricing__cardTitleActive{
+    width: 100px;
+    height: 64px;
+    position: absolute;
+    transform: translateX(-50%);
+    top: 0;
+    left: 50%;
+    border-right: .3em solid #ffffff00;
+    border-bottom: .7em solid #ef5226;
+    border-left: .3em solid #ffffff00;
+    border-top: .7em solid #ef5226;
+}
+
+.Pricing__card:hover {
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+
+/* .Pricing__cardTitleActive {
+    width: 100px;
+    height: 64px;
+    position: absolute;
+    transform: translateX(-50%);
+    top: 0;
+    left: 50%;
+    border-right: .3em solid #ffffff00;
+    border-bottom: .7em solid #ef5226;
+    border-left: .3em solid #ffffff00;
+    border-top: .7em solid #ef5226;
+} */
 
 .Footer {
     background-color: #212528;
