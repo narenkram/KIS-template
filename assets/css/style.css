@@ -62,10 +62,6 @@
     padding: 10px 0;
 }
 
-.TopBar__content ul {
-    display: float-left;
-}
-
 .TopBar__content ul li, .TopBar__content a {
     color: #fff;
 }
@@ -146,11 +142,11 @@
     font-weight: 500;
 }
 
-.Pricing__card{
+.Pricing__card {
     cursor: pointer;
 }
 
-.Pricing__card:hover .Pricing__cardTitleActive{
+.Pricing__card:hover .Pricing__cardTitleActive {
     width: 100px;
     height: 64px;
     position: absolute;
@@ -164,7 +160,7 @@
 }
 
 .Pricing__card:hover {
-    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175)!important;
 }
 
 /* .Pricing__cardTitleActive {
@@ -193,6 +189,23 @@
     color: #fff;
 }
 
+.Copyright ul li a {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #343a40;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1.7;
+    font-size: 14px;
+}
+
+.Copyright ul li a:hover {
+    background-color: #ef5226;
+    color: #fff;
+}
+
 .SectionContent {
     background-color: #fff;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
@@ -201,6 +214,16 @@
 .SectionContent__div {
     background-color: #ef5226;
     color: #fff;
+}
+
+.UnderLine:after {
+    content: '';
+    width: 70px;
+    height: 4px;
+    background-color: #ef5226;
+    position: absolute;
+    left: 14px;
+    margin-top: 33px;
 }
 
 /* bootstrap overides */
