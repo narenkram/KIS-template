@@ -324,8 +324,8 @@ p {
     display: block;
 }
 
-.dropdown:hover .nav-link {
-    background-color: #ff5722;
+.nav-item:hover .nav-link {
+    color: #ff5722;
 }
 
 * {
