@@ -48,6 +48,10 @@
     color: #ef5226;
 }
 
+.ThemeColor2 {
+    color: #212528;
+}
+
 .ThemeBgColor {
     background-color: #212528;
 }
@@ -228,14 +232,54 @@
 
 /* About Page */
 
+.ShowCase:hover {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
 .ShowCase {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    border: 2px solid #fff;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: none;
+    border: none;
+    background-color: #ffffff;
+    color: #ef5226;
+}
+
+.btn.ThemeColor2:hover {
+    color: #ef5226;
+    font-weight: bold;
+}
+
+.Faq .card-header{
+    background-color: #fafafa;
+}
+
+.Share{
+    font-size: 18px;
+}
+
+.Icons{
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.Circle {
+    min-width: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    display: grid;
+    align-items: center;
+}
+
+.Share a:hover{
+    color: #212528;
+    transition: 0ms;
 }
 
 /* bootstrap overides */
