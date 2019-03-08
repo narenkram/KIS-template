@@ -150,6 +150,19 @@
     cursor: pointer;
 }
 
+.Pricing__card.active .Pricing__cardTitleActive {
+    width: 100px;
+    height: 64px;
+    position: absolute;
+    transform: translateX(-50%);
+    top: 0;
+    left: 50%;
+    border-right: .3em solid #ffffff00;
+    border-bottom: .7em solid #ef5226;
+    border-left: .3em solid #ffffff00;
+    border-top: .7em solid #ef5226;
+}
+
 .Pricing__card:hover .Pricing__cardTitleActive {
     width: 100px;
     height: 64px;
@@ -161,6 +174,10 @@
     border-bottom: .7em solid #ef5226;
     border-left: .3em solid #ffffff00;
     border-top: .7em solid #ef5226;
+}
+
+.Pricing__card.active {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175)!important;
 }
 
 .Pricing__card:hover {
@@ -233,7 +250,7 @@
 /* About Page */
 
 .ShowCase:hover {
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
 }
 
 .ShowCase {
@@ -254,15 +271,15 @@
     font-weight: bold;
 }
 
-.Faq .card-header{
+.Faq .card-header {
     background-color: #fafafa;
 }
 
-.Share{
+.Share {
     font-size: 18px;
 }
 
-.Icons{
+.Icons {
     bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
@@ -277,9 +294,20 @@
     align-items: center;
 }
 
-.Share a:hover{
+.Share a:hover {
     color: #212528;
     transition: 0ms;
+}
+
+/* Services Page */
+
+.ServiceBox{
+    transition: none;
+}
+
+.ServiceBox:hover{
+    background-color: #eee;
+    transition: none;
 }
 
 /* bootstrap overides */
