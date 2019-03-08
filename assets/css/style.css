@@ -310,6 +310,14 @@
     transition: none;
 }
 
+.ServiceBox__icon{
+    width:120px;
+    height:120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* bootstrap overides */
 
 .btn-primary {
