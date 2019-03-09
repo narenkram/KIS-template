@@ -150,7 +150,7 @@
     cursor: pointer;
 }
 
-.Pricing__card.active .Pricing__cardTitleActive {
+.Pricing__cardTitleActive {
     width: 100px;
     height: 64px;
     position: absolute;
@@ -161,43 +161,12 @@
     border-bottom: .7em solid #ef5226;
     border-left: .3em solid #ffffff00;
     border-top: .7em solid #ef5226;
-}
-
-.Pricing__card:hover .Pricing__cardTitleActive {
-    width: 100px;
-    height: 64px;
-    position: absolute;
-    transform: translateX(-50%);
-    top: 0;
-    left: 50%;
-    border-right: .3em solid #ffffff00;
-    border-bottom: .7em solid #ef5226;
-    border-left: .3em solid #ffffff00;
-    border-top: .7em solid #ef5226;
-}
-
-.Pricing__card.active {
-    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175)!important;
-    border:none;
 }
 
 .Pricing__card:hover {
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175)!important;
-    border:none;
+    border: none;
 }
-
-/* .Pricing__cardTitleActive {
-    width: 100px;
-    height: 64px;
-    position: absolute;
-    transform: translateX(-50%);
-    top: 0;
-    left: 50%;
-    border-right: .3em solid #ffffff00;
-    border-bottom: .7em solid #ef5226;
-    border-left: .3em solid #ffffff00;
-    border-top: .7em solid #ef5226;
-} */
 
 .Footer {
     background-color: #212528;
@@ -303,24 +272,24 @@
 
 /* Services Page */
 
-.ServiceBox{
+.ServiceBox {
     transition: none;
 }
 
-.ServiceBox:hover{
+.ServiceBox:hover {
     background-color: #eee;
     transition: none;
 }
 
-.ServiceBox__icon{
-    width:120px;
-    height:120px;
+.ServiceBox__icon {
+    width: 120px;
+    height: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.SectionQuickContact::before{
+.SectionQuickContact::before {
     content: '';
     background-color: rgba(0, 0, 0, 0.7);
     background-image: url('../images/1140x150.png');
@@ -337,6 +306,10 @@
 }
 
 /* bootstrap overides */
+
+.list-group-flush .list-group-item {
+    border-style: dotted;
+}
 
 .btn-primary {
     background-color: #ef5226;
@@ -436,6 +409,11 @@ p {
 
 .nav-item:hover .nav-link {
     color: #ff5722;
+}
+
+.card {
+    border-color: #212528;
+    border-style: dotted;
 }
 
 * {
