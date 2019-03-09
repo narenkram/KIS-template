@@ -148,6 +148,7 @@
 
 .Pricing__card {
     cursor: pointer;
+    transition: none;
 }
 
 .Pricing__cardTitleActive {
@@ -161,11 +162,13 @@
     border-bottom: .7em solid #ef5226;
     border-left: .3em solid #ffffff00;
     border-top: .7em solid #ef5226;
+    transition: none;
 }
 
 .Pricing__card:hover {
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175)!important;
     border: none;
+    transition: none;
 }
 
 .Footer {
@@ -277,7 +280,7 @@
 }
 
 .ServiceBox:hover {
-    background-color: #eee;
+    background-color: #eee!important;
     transition: none;
 }
 
