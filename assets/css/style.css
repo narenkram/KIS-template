@@ -310,6 +310,12 @@
 
 /* Projects page */
 
+.Featurette__heading {
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
+
 /* Shine */
 
 .Project .Project__image {
