@@ -376,10 +376,14 @@
     padding: 5px;
 }
 
-.ServiceBoxHomePage:hover {
-    background-color: #ef5226;
+.ServiceBoxHomePage {
+    background-color: #343a40;
     border-radius: .25rem;
     cursor: pointer;
+}
+
+.ServiceBoxHomePage:hover {
+    background-color: #ef5226;
 }
 
 /* bootstrap overides */
