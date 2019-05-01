@@ -49,11 +49,11 @@
 }
 
 .ThemeColor2 {
-    color: #212528;
+    color: #282d31;
 }
 
 .ThemeBgColor {
-    background-color: #212528;
+    background-color: #282d31;
 }
 
 .ThemeBgColor2 {
@@ -100,7 +100,7 @@
 }
 
 .LogoSection {
-    background-color: #212528;
+    background-color: #282d31;
     color: #fff;
 }
 
@@ -134,7 +134,7 @@
 }
 
 .MenuLinks {
-    background-color: #212528;
+    background-color: #282d31;
     border-top: 1px solid #232f3a;
     box-shadow: 0 0px 0px 1px #000000;
 }
@@ -172,7 +172,7 @@
 }
 
 .Footer {
-    background-color: #212528;
+    background-color: #282d31;
     color: #fff;
 }
 
@@ -269,7 +269,7 @@
 }
 
 .Share a:hover {
-    color: #212528;
+    color: #282d31;
     transition: 0ms;
 }
 
@@ -398,12 +398,12 @@
 }
 
 .btn-primary:hover {
-    background-color: #212528;
+    background-color: #282d31;
     color: #fff;
 }
 
 .btn-dark {
-    background-color: #212528;
+    background-color: #282d31;
     color: #fff;
 }
 
@@ -493,7 +493,7 @@ p {
 }
 
 .card {
-    border-color: #212528;
+    border-color: #282d31;
 }
 
 * {
