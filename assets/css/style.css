@@ -61,7 +61,7 @@
 }
 
 .TopBar {
-    background-color: #ff5722;
+    background-color: #ef5226;
     color: #fff;
     padding: 10px 0;
 }
@@ -489,7 +489,7 @@ p {
 }
 
 .nav-item:hover .nav-link {
-    color: #ff5722;
+    color: #ef5226;
 }
 
 .card {
