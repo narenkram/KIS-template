@@ -1,12 +1,18 @@
-# KeepItSimple
-![alt text](/assets/images/logo.png "KeepItSimple Logo")
+# HTML Website
+This is an HTML website template for small teams and corporate companies.
 
-HTML website for corporate companies and small teams.
+## How to use
+### Requirements
+- Basic HTML, CSS & Javascript
+- Little experience with [Bootstrap](https://getbootstrap.com)
+
+Download or clone the project and open the project folder in [Visual Studio Code](https://code.visualstudio.com) or your preferred code editor.
+
+Note: This is a static HTML website, you don't need a web server to run this project. Just open the `index.html` in your browser.
 
 ## Features
 - Simple & Elegant Design
-- Custom Styling based on [Airbnb CSS Style Guide](https://github.com/airbnb/css)
-
+- Styling standard based on [Airbnb CSS Style Guide](https://github.com/airbnb/css)
 
 ### Technology Stack.
 - Bootstrap 4.3.1
